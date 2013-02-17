@@ -5,14 +5,9 @@
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
-#+EXPORT_SELECT_TAGS: export
-#+EXPORT_EXCLUDE_TAGS: noexport
-#+LINK_UP:   
-#+LINK_HOME: 
-#+XSLT:
+
+#+ATTR_HTML: title="build-status"
+[[https://travis-ci.org/suhailshergill/blog.png?branch%3Dmaster,production][https://travis-ci.org/suhailshergill/blog.png?branch=master,production]]
 
 * STARTED travis-ci [1/2]
   - State "STARTED"    from "TODO"       [2013-02-17 Sun 21:40]
