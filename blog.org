@@ -9,6 +9,8 @@
 #+ATTR_HTML: title="build-status"
 [[https://travis-ci.org/suhailshergill/blog.png?branch%3Dmaster,production][https://travis-ci.org/suhailshergill/blog.png?branch=master,production]]
 
+#+HTML: <img src="https://travis-ci.org/suhailshergill/blog.png?branch=master,production"      alt="https://travis-ci.org/suhailshergill/blog.png?branch=master,production">
+
 * STARTED travis-ci [1/2]
   - State "STARTED"    from "TODO"       [2013-02-17 Sun 21:40]
   
