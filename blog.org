@@ -1,4 +1,4 @@
-#+TITLE:     blog.org
+#+TITLE:     [[https://travis-ci.org/suhailshergill/blog.png?branch%3Dmaster,production][build-status]]
 #+AUTHOR:    Suhail Shergill
 #+EMAIL:     suhailshergill@gmail.com
 #+DATE:      2013-02-17 Sun
