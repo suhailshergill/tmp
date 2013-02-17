@@ -1,0 +1,75 @@
+#+TITLE:     blog.org
+#+AUTHOR:    Suhail Shergill
+#+EMAIL:     suhailshergill@gmail.com
+#+DATE:      2013-02-17 Sun
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+
+* STARTED travis-ci [1/2]
+  - State "STARTED"    from "TODO"       [2013-02-17 Sun 21:40]
+  
+  - [X] make sure build passes on travis-ci
+  - [ ] insert build-status image
+
+  - State "TODO"       from ""           [2013-02-17 Sun 21:38] \\
+
+  :PROPERTIES:
+  :CUSTOM_ID: fab07418-3e10-420a-8452-92d86d247162
+  :END:
+* STARTED setup blog [3/4]
+  SCHEDULED: <2012-05-27 Sun>
+  - State "STARTED"    from "TODO"       [2012-03-12 Mon 09:56]
+
+  - [X] css [2/2]
+    - [X] [[https://github.com/chriseppstein/compass][compass]] or [[https://github.com/joshuaclayton/blueprint-css][blueprint]]?
+      hmm compass is a meta framework. so more like compass *with* blueprint.
+    - [X] ruby [[https://github.com/nkryptic/sandbox][sandboxing]]. [2/2]
+      needed because compass is ruby based (uses sass)
+      - [X] install [[https://github.com/nkryptic/sandbox][sandbox]]
+      - [X] integrate it with virtualenv: using postactivate.sh
+  - [X] workflow/capabilities [3/3]
+    - [X] org-mode integration [1/1]
+      - [X] format: markdown?. nope this wouldn't really make much
+        sense. org-mode syntax is as expressive as i need to be. sure if i want
+        to write blog posts from outside emacs this will be cool. but meh
+    - [X] content based. i.e., changes get reflected to: [2/2]
+      - [X] actual posts
+        have the ability to update tags and content etc. using CUSTOM_ID
+        property as the unique identifier
+      - [X] views based on posts
+    - [X] integration with google+ etc? not all that hopeful, but would be nice
+      to see options there.
+      - using [[http://ifttt.com][ifttt]]
+  - [-] database connectivity [1/2]
+    - [X] main content (exported from org)?
+    - [-] comments
+      using [[http://disqus.com][disqus]] right now. probably want to make local backups using their
+      [[http://docs.disqus.com/help/58/][api]].
+  - [X] rss feed
+  - State "TODO"       from ""           [2012-03-09 Fri 10:59] \\
+    
+  :PROPERTIES:
+  :CUSTOM_ID: 1884aaee-457e-403e-9b73-40e0b152b3e0
+  :END:
+* CANCELED add yesod as submodule
+  CLOSED: [2011-11-02 Wed 22:18]
+  - State "CANCELED"   from "DONE"       [2012-01-18 Wed 23:42] \\
+    don't really see a strong need for using yesod from source especially when it's
+    available via hackage. will be using a sandboxed installation via virthualenv
+  - State "DONE"       from "TODO"       [2011-11-02 Wed 22:18]
+  - State "TODO"       from ""           [2011-07-15 Fri 13:30] \\
+
+    [[https://github.com/snoyberg/yesod.git][github]]
+    
+    :PROPERTIES:
+    :CUSTOM_ID: efdb3cce-eef6-49a5-a250-387f4b870e78
+    :END:
